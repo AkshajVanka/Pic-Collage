@@ -1,0 +1,92 @@
+html {
+    height: 100%;
+}
+body {
+    height: 100%;
+    width: 100%;
+    border: 30px solid transparent;
+    padding: 15px;
+    border-image: url(https://www.rarewoodsusa.com/wp-content/uploads/2018/08/mahogany-brazil-1000x500.jpg)
+        30 round;
+    text-align: center;
+    margin: 0px;
+}
+
+.file {
+    display: none;
+}
+
+#lab {
+    font-size: 150%;
+    background-image: linear-gradient(40deg, #ff6ec4, #7873f5);
+    border-radius: 15px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.container-fluid {
+    opacity: 1;
+    background-image: url(https://cdn.pixabay.com/photo/2016/05/24/16/48/mountains-1412683__340.png);
+    background-size: cover;
+    height: 100%;
+}
+
+#text {
+    margin-left: 26%;
+    width: 50%;
+    height: 17%;
+    border-radius: 10px;
+}
+.image {
+    padding: 1%;
+    height: 30%;
+    width: 30%;
+}
+#collage {
+    font-size: 150%;
+    background-image: linear-gradient(40deg, #ff6ec4, #7873f5);
+    border-radius: 15px;
+    padding: 10px;
+    margin: 10px;
+}
+
+#add {
+    font-size: 150%;
+    background-image: linear-gradient(40deg, #ff6ec4, #7873f5);
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.after {
+    display: none;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+}
+
+.flexy {
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+    width: 100%;
+    background-color: pink;
+    border-radius: 15px;
+    justify-content: space-around;
+}
+
+#btn-c {
+    transform: translateY(14px);
+    background-image: linear-gradient(40deg, #ff6ec4, #7873f5);
+    border-radius: 15px;
+}
+
+#carousel {
+    display: none;
+    width: 100%;
+    height: 100%;
+}
+
+.d-block {
+    height: 90vh;
+    width: 90vw;
+}
